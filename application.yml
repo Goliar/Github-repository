@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Github-repository
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Goliar/config-server
+          clone-on-start: true
